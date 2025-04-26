@@ -45,14 +45,25 @@
 
        $a = new Food('ポテト',250);
        print_r($a);
-
+      
        // 改行する
        echo '<br>';
 
        $b = new Animal('ドッグ',60,'5000');
        print_r($b);
 
+        // 改行する
+        echo '<br>';
+
+       $a->show_price();
+
+        // 改行する
+        echo '<br>';
+
+       $b->show_height();
+
        // インスタンス$foodのかくプロパティの値を出力する
+
 
        ?>
    </p>
